@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import "./home.css"
 import {Images} from '../../constants';
-import { Header , Navigation } from '../../components';
+import { Header , Navigation , CourseCard } from '../../components';
 
 const Home = () => {
   useEffect(() => {
@@ -11,6 +11,7 @@ const Home = () => {
   }, [Images]);
   return (
     <div>
+    {/* ------ Header Section ------ */}
       <section className='home-header'>
         <Header />
         <div className='text-box'>
@@ -19,6 +20,31 @@ const Home = () => {
           <button><Navigation to="/" title="Visit Us To Know More"/></button>
         </div>
       </section>
+
+      {/* ----- Courses Section ----- */}
+        <section className='course'>
+          <h1>Courses We Offer</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <div className='row'>
+            <CourseCard 
+              title="Intermediate"
+              definition="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Debitis voluptatem ad laboriosam eos, vitae consequatur!"
+            />
+            <CourseCard 
+              title="Degree"
+              definition="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Debitis voluptatem ad laboriosam eos, vitae consequatur!"
+            />
+            <CourseCard 
+              title="Post Graduation"
+              definition="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Debitis voluptatem ad laboriosam eos, vitae consequatur!"
+            />
+          </div>
+          <p></p>
+        </section>
     </div>
   )
 }
