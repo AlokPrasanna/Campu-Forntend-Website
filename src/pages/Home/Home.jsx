@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import "./home.css"
 import {Images} from '../../constants';
-import { Header , Navigation , CourseCard , CampusCard } from '../../components';
+import { Header , Navigation , CourseCard , CampusCard , FacilitiesCard } from '../../components';
 
 const Home = () => {
   useEffect(() => {
@@ -54,6 +54,36 @@ const Home = () => {
             <CampusCard src={Images.uniImage1} alt="Campus-Image-1" text="LONDON" />
             <CampusCard src={Images.uniImage2} alt="Campus-Image-2" text="GERMANY" />
             <CampusCard src={Images.uniImage3} alt="Campus-Image-3" text="JAPAN" />
+          </div>
+        </section>
+
+        {/* ----- Facilities ----- */}
+        <section className='facilities'>
+          <h1>Our Facilities</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, culpa.</p>
+
+          <div className="row">
+            <FacilitiesCard 
+              src={Images.facility1}
+              alt="Library"
+              title="World Class Library"
+              subTitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Debitis voluptatem ad laboriosam eos, vitae consequatur!"
+            />
+            <FacilitiesCard 
+              src={Images.facility2}
+              alt="Ground"
+              title="Largest Play Ground"
+              subTitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Debitis voluptatem ad laboriosam eos, vitae consequatur!"
+            />
+            <FacilitiesCard 
+              src={Images.facility3}
+              alt="Canteen"
+              title="Tasty and Healthy Food"
+              subTitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Debitis voluptatem ad laboriosam eos, vitae consequatur!"
+            />
           </div>
         </section>
     </div>

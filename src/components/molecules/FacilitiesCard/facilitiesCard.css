@@ -1,0 +1,21 @@
+.facilities-card{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.facilities-card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilities-card p{
+    padding: 0;
+}
+
+.facilities-card h3{
+   margin-top: 16px;
+   margin-bottom: 15px;
+   text-align: left; 
+}
