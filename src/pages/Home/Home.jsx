@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import "./home.css"
 import {Images} from '../../constants';
-import { Header , Navigation , CourseCard } from '../../components';
+import { Header , Navigation , CourseCard , CampusCard } from '../../components';
 
 const Home = () => {
   useEffect(() => {
@@ -43,7 +43,18 @@ const Home = () => {
               Debitis voluptatem ad laboriosam eos, vitae consequatur!"
             />
           </div>
-          <p></p>
+        </section>
+        
+        {/* ----- Campus ----- */}
+        <section className='campus'>
+          <h1>Our Global Campus</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, culpa.</p>
+
+          <div className='row'>
+            <CampusCard src={Images.uniImage1} alt="Campus-Image-1" text="LONDON" />
+            <CampusCard src={Images.uniImage2} alt="Campus-Image-2" text="GERMANY" />
+            <CampusCard src={Images.uniImage3} alt="Campus-Image-3" text="JAPAN" />
+          </div>
         </section>
     </div>
   )

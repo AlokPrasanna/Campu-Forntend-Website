@@ -87,3 +87,11 @@
        flex-direction: column; 
     }
 }
+
+/* ----- Campus ----- */
+.campus{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
