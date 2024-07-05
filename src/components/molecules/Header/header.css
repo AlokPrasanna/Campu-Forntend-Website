@@ -35,3 +35,34 @@
 .links ul li:hover::after{
     width: 100%;
 }
+
+.svg{
+   display: none; 
+}
+
+@media(max-width:700px){
+    .links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px; 
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.8s;
+      }
+    .links ul li {
+        display: block;
+    }
+    .svg{
+        display: block;
+        width: 25px;
+        color: #fff;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .links ul{
+        padding: 30px;
+    }
+}

@@ -1,9 +1,9 @@
 // -------------------- Imports --------------------
 import Header from "./molecules/Header/Header";
-import Link from "./atom/Navigation/Navigation";
+import Navigation from "./atom/Navigation/Navigation";
 
 // -------------------- Exports --------------------
 export {
     Header,
-    Link,
+    Navigation,
 }
