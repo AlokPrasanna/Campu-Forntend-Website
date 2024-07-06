@@ -7,13 +7,14 @@ import {
   CourseCard, 
   CampusCard, 
   FacilitiesCard, 
-  TestimonialsCard 
+  TestimonialsCard,
 } from '../../components';
 
 const Home = () => {
   useEffect(() => {
     if (Images) {
       document.documentElement.style.setProperty("--bg-image", `url(${Images.university})`);
+      document.documentElement.style.setProperty("--banner-image", `url(${Images.banner})`);
     }
   }, [Images]);
   return (
@@ -117,6 +118,17 @@ const Home = () => {
               nihil obcaecati temporibus quidem, dolorem odio voluptatem autem explicabo!"
             />
           </div>
+        </section>
+
+        {/* ----- Call to Action ----- */}
+        <section className='call-to-action'>
+          <h1>
+            Enroll For Our Various Online Courses <br/>
+            Anywhere From The World
+          </h1>
+          <button className=''>
+            <Navigation to="/" title="CONTACT US" />
+          </button>
         </section>
     </div>
   )

@@ -10,6 +10,7 @@ const Images = {
     facility3:"../f3.jpg",
     student1:"../s1.jpg",
     student2:"../s2.jpg",
+    banner:"../b.jpg",
 }
 
 export default Images;
