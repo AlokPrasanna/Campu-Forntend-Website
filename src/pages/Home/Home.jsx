@@ -1,7 +1,14 @@
 import React,{useEffect} from 'react'
 import "./home.css"
 import {Images} from '../../constants';
-import { Header , Navigation , CourseCard , CampusCard , FacilitiesCard } from '../../components';
+import { 
+  Header, 
+  Navigation, 
+  CourseCard, 
+  CampusCard, 
+  FacilitiesCard, 
+  TestimonialsCard 
+} from '../../components';
 
 const Home = () => {
   useEffect(() => {
@@ -83,6 +90,31 @@ const Home = () => {
               title="Tasty and Healthy Food"
               subTitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Debitis voluptatem ad laboriosam eos, vitae consequatur!"
+            />
+          </div>
+        </section>
+
+        {/* ----- Testimonials ----- */}
+        <section className='testimonials'>
+          <h1>What Our Students Say</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, culpa.</p>
+          <p></p>
+          <div className='row'>
+            <TestimonialsCard 
+              src={Images.student1}
+              alt="Student"
+              name="Christine Berkly"
+              message="Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Sit, eum eius aperiam quisquam laborum nulla esse, 
+              nihil obcaecati temporibus quidem, dolorem odio voluptatem autem explicabo!"
+            />
+            <TestimonialsCard 
+              src={Images.student2}
+              alt="Student"
+              name="Christine Berkly"
+              message="Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Sit, eum eius aperiam quisquam laborum nulla esse, 
+              nihil obcaecati temporibus quidem, dolorem odio voluptatem autem explicabo!"
             />
           </div>
         </section>
