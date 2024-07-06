@@ -1,0 +1,17 @@
+.footer-card{
+    padding: 0 2%;
+}
+
+.footer-card h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer-icons svg{
+    width: 35px;
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}

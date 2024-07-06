@@ -8,6 +8,7 @@ import {
   CampusCard, 
   FacilitiesCard, 
   TestimonialsCard,
+  Footer
 } from '../../components';
 
 const Home = () => {
@@ -129,6 +130,11 @@ const Home = () => {
           <button className=''>
             <Navigation to="/" title="CONTACT US" />
           </button>
+        </section>
+
+        {/* ----- Footer ----- */}
+        <section className='footer'>
+          <Footer />
         </section>
     </div>
   )

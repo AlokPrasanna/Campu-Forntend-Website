@@ -5,6 +5,7 @@ import CourseCard from "./molecules/CourseCard/CourseCard";
 import CampusCard from "./molecules/CampusCard/CampusCard";
 import FacilitiesCard from "./molecules/FacilitiesCard/FacilitiesCard";
 import TestimonialsCard from "./molecules/TesimonialsCard/TestimonialsCard";
+import Footer from "./molecules/Footer/Footer";
 
 // -------------------- Exports --------------------
 export {
@@ -14,4 +15,5 @@ export {
     CampusCard,
     FacilitiesCard,
     TestimonialsCard,
+    Footer
 }
