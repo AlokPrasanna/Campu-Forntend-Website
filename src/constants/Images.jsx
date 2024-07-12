@@ -1,16 +1,3 @@
-// -------------------- Images --------------------
-const Images = {
-    university: "../university-pic.jpg",
-    logo:"../logo.png",
-    uniImage1:"../1.jpg",
-    uniImage2:"../2.jpg",
-    uniImage3:"../3.jpg",
-    facility1:"../f1.jpg",
-    facility2:"../f2.jpg",
-    facility3:"../f3.jpg",
-    student1:"../s1.jpg",
-    student2:"../s2.jpg",
-    banner:"../b.jpg",
-}
-
-export default Images;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c69b42b1cd8af2044cbebd109cdf6511a0e2e24945ea56de70c03ec31c771e3e
+size 408

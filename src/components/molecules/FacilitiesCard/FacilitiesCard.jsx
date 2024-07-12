@@ -1,14 +1,3 @@
-import React from 'react';
-import "./facilitiesCard.css";
-
-const FacilitiesCard = ({src , alt , title , subTitle}) => {
-  return (
-    <div className='facilities-card'>
-        <img src={src} alt={alt} />
-        <h3>{title}</h3>
-        <p>{subTitle}</p>
-    </div>
-  )
-}
-
-export default FacilitiesCard
+version https://git-lfs.github.com/spec/v1
+oid sha256:55e4e72648914c2393cb6063e04bbdad42144a1a0892c1babefa934e9048d7f2
+size 316
